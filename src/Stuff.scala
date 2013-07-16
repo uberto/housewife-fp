@@ -1,0 +1,8 @@
+
+class Stuff {
+
+  Trait Lotsof
+
+}
+
+
