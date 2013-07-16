@@ -1,7 +1,7 @@
 
 class Stuff {
 
-  Trait Lotsof
+ // Trait Lotsof
 
 }
 
