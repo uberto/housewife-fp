@@ -1,9 +1,13 @@
 
+val z1 = new Zucchini(45)
 
+val z2 = z1.slice
 
+val z3 = z2._1.slice
 
-case class ZucchiniSlice()
+val z4 = z3._1.slice
 
+val z5 = z4._1.slice
 
 
 
@@ -115,23 +119,8 @@ case class ZucchiniSlice()
 
 
 
-case class Zucchini(length: Double){
-  def slice(): AQuantityOf[ZucchiniSlice] = List(new ZucchiniSlice())
-}
 
 
-
-
-
-
-
-type AQuantityOf[A] = List[A]
-
-
-
-def sliceZucchini(z: Zucchini): AQuantityOf[ZucchiniSlice] = {
-   z.slice().take(5)
-}
 
 
 
