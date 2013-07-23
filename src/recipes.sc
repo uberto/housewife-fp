@@ -1,13 +1,26 @@
+import myStuff.Stuff
+import Stuff._
 
-val z1 = new Zucchini(45)
+val z1 =  Zucchini(45)
 
 val z2 = z1.slice
 
+
 val z3 = z2._1.slice
+
 
 val z4 = z3._1.slice
 
+
 val z5 = z4._1.slice
+
+
+
+val p = Potato(230)
+
+peelPotato(p)
+
+
 
 
 
